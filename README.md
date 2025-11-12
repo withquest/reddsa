@@ -1,3 +1,10 @@
+# Addendum
+
+This repository is a fork of the Zcash Foundation’s [`reddsa`][reddsa].
+It updates the RedDSA +[`frost-rerandomized`][frost-rerandomized] integration to `2.2.0` and adapts the ciphersuites (RedPallas/RedJubjub) for Quest’s MPC/TSS flow.
+
+## Original README.md
+
 A minimal [RedDSA][reddsa] implementation for use in Zcash.
 
 Two specializations of RedDSA are used in Zcash: RedJubjub and
@@ -63,3 +70,4 @@ See [DEVELOPERS.md](DEVELOPERS.md).
 [zebra]: https://github.com/ZcashFoundation/zebra
 [refinement]: https://en.wikipedia.org/wiki/Refinement_type
 [sealed]: https://rust-lang.github.io/api-guidelines/future-proofing.html#sealed-traits-protect-against-downstream-implementations-c-sealed
+[frost-rerandomized]: https://crates.io/crates/frost-rerandomized
